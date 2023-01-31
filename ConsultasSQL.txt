@@ -1,0 +1,42 @@
+//Vista que nos muestre todas las empresas y las ofertas que han publicado y si siguen en curso o ya han sido finalizadas.//
+
+//Vista que nos muestre cada postulante, su salario promedio en trabajos anteriores y la calificación promedio que ha obtenido en sus evaluaciones.//
+
+//Vista que muestre cada postulante seleccionado, la oferta, el director que mandó la selección y el resultado actual.//
+
+///Vista que muestre todos los postulantes que hayan tenido un cargo previo con al menos 5 personas de las que se hicieron cargo y que hayan finalizado su último cargo hace menos de 1 año, o esten trabajando actualmente.///
+
+//Vista que nos muestre cada evaluación que haya sido solicitada al menos 5 veces el último año, y su calificación promedio.//
+
+///Procedimiento almacenado que nos permita ingresar un idioma o un software, y nos devuelva todos los postulantes con experiencia en el y su nivel.///
+
+//Función de tabla en la que ingresamos una oferta y un postulante, y nos devuelva una lista de las evaluaciones que aprobó y las que desaprobó o no rindió.//
+
+//Procedimiento almacenado que nos permita ingresar una oferta, y realizar el cambio al estado 'Seleccionado' de todos los postulantes que hayan superado todas las evaluaciones en la tabla Postulacion_Seleccion//
+
+//Procedimiento almacenado que nos devuelva los postulantes para una oferta, si fueron seleccionados su resultado, o si no lo fueron.//
+
+///Procedimiento almacenado que nos devuelva todos los postulantes con experiencia en un área seleccionada.///
+
+//Función escalar que nos permita ingresar una región o un área, y nos devuelva la cantidad de ofertas que aun están activas.//
+
+//Función escalar que nos permita ingresar un postulante y un Tipo de evaluación, y nos devuelva la calificación media en todas las evaluaciones que ha tomado.//
+
+//Procedimiento almacenado en el que ingresemos una oferta y si buscamos requerimientos, funciones, beneficios o evaluaciones, y nos devuelva los resultados.//
+
+//Procedimiento almacenado en el que ingresemos un postulante y si buscamos su experiencia laboral, estudios, referencias, estudios postgrado, idiomas o software y nos devuelva los resultados.//
+
+//Función de tabla que devuelva toda oferta que haya realizado la empresa ingresada, y que haya algún postulante seleccionado que haya sido contratado.//
+
+//Función escalar que nos permita validar una licencia, ingresando la licencia actual y la licencia requerida, y nos devuelva si es válida o no.//
+
+//Procedimiento almacenado que nos permita ingresar un postulante y una oferta, y de cumplir con los requisitos minimos, lo ingrese y devuelva 'Ingresado', caso contrario devuelva 'No ingresado'.//
+
+
+
+
+
+
+
+
+

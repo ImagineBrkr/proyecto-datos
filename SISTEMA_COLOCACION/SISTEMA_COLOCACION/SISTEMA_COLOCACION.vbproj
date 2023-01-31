@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{728CC3A0-9018-4746-A41D-0197855CC0AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SISTEMA_COLOCACION.My.MyApplication</StartupObject>
+    <RootNamespace>SISTEMA_COLOCACION</RootNamespace>
+    <AssemblyName>SISTEMA_COLOCACION</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SISTEMA_COLOCACION.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SISTEMA_COLOCACION.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Area.Designer.vb">
+      <DependentUpon>Area.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Area.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BD_ContratacionEmpleosDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD_ContratacionEmpleosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Beneficios.Designer.vb">
+      <DependentUpon>Beneficios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Beneficios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalificacionSalarioPostulantes.Designer.vb">
+      <DependentUpon>CalificacionSalarioPostulantes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CalificacionSalarioPostulantes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contacto.Designer.vb">
+      <DependentUpon>Contacto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contacto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetallesCargoPostulantes.Designer.vb">
+      <DependentUpon>DetallesCargoPostulantes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DetallesCargoPostulantes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetallesOferta.Designer.vb">
+      <DependentUpon>DetallesOferta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DetallesOferta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetallesPostulante.Designer.vb">
+      <DependentUpon>DetallesPostulante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DetallesPostulante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DirectorRRHH.Designer.vb">
+      <DependentUpon>DirectorRRHH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DirectorRRHH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empresa.Designer.vb">
+      <DependentUpon>Empresa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empresa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estudios.Designer.vb">
+      <DependentUpon>Estudios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Estudios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EstudiosPosgrado.Designer.vb">
+      <DependentUpon>EstudiosPosgrado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EstudiosPosgrado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Evaluacion.Designer.vb">
+      <DependentUpon>Evaluacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Evaluacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EvaluacionesOferta.Designer.vb">
+      <DependentUpon>EvaluacionesOferta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EvaluacionesOferta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EvaluacionesPostulante.Designer.vb">
+      <DependentUpon>EvaluacionesPostulante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EvaluacionesPostulante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EvaluacionPostulante.Designer.vb">
+      <DependentUpon>EvaluacionPostulante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EvaluacionPostulante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExperienciaLaboral.Designer.vb">
+      <DependentUpon>ExperienciaLaboral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ExperienciaLaboral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funciones.Designer.vb">
+      <DependentUpon>Funciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Funciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Idiomas.Designer.vb">
+      <DependentUpon>Idiomas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Idiomas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Oferta.Designer.vb">
+      <DependentUpon>Oferta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Oferta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OfertaEvaluacion.Designer.vb">
+      <DependentUpon>OfertaEvaluacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OfertaEvaluacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OfertasEmpresa.Designer.vb">
+      <DependentUpon>OfertasEmpresa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OfertasEmpresa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Postulante.Designer.vb">
+      <DependentUpon>Postulante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Postulante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PostulantesExperienciaArea.Designer.vb">
+      <DependentUpon>PostulantesExperienciaArea.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PostulantesExperienciaArea.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PostulantesExperienciaSoftIdioma.Designer.vb">
+      <DependentUpon>PostulantesExperienciaSoftIdioma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PostulantesExperienciaSoftIdioma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PostulantesOferta.Designer.vb">
+      <DependentUpon>PostulantesOferta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PostulantesOferta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PostulantesSeleccionadosOferta.Designer.vb">
+      <DependentUpon>PostulantesSeleccionadosOferta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PostulantesSeleccionadosOferta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preseleccion.Designer.vb">
+      <DependentUpon>Preseleccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Preseleccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Referencias.Designer.vb">
+      <DependentUpon>Referencias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Referencias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Region.Designer.vb">
+      <DependentUpon>Region.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Region.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Requerimientos.Designer.vb">
+      <DependentUpon>Requerimientos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Requerimientos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seleccion.Designer.vb">
+      <DependentUpon>Seleccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Seleccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Softwares.Designer.vb">
+      <DependentUpon>Softwares.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Softwares.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TipoEvaluacion.Designer.vb">
+      <DependentUpon>TipoEvaluacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TipoEvaluacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VigenciaOfertasPublicadas.Designer.vb">
+      <DependentUpon>VigenciaOfertasPublicadas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VigenciaOfertasPublicadas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Area.resx">
+      <DependentUpon>Area.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beneficios.resx">
+      <DependentUpon>Beneficios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalificacionSalarioPostulantes.resx">
+      <DependentUpon>CalificacionSalarioPostulantes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contacto.resx">
+      <DependentUpon>Contacto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetallesCargoPostulantes.resx">
+      <DependentUpon>DetallesCargoPostulantes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetallesOferta.resx">
+      <DependentUpon>DetallesOferta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetallesPostulante.resx">
+      <DependentUpon>DetallesPostulante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DirectorRRHH.resx">
+      <DependentUpon>DirectorRRHH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empresa.resx">
+      <DependentUpon>Empresa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estudios.resx">
+      <DependentUpon>Estudios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EstudiosPosgrado.resx">
+      <DependentUpon>EstudiosPosgrado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Evaluacion.resx">
+      <DependentUpon>Evaluacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EvaluacionesOferta.resx">
+      <DependentUpon>EvaluacionesOferta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EvaluacionesPostulante.resx">
+      <DependentUpon>EvaluacionesPostulante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EvaluacionPostulante.resx">
+      <DependentUpon>EvaluacionPostulante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExperienciaLaboral.resx">
+      <DependentUpon>ExperienciaLaboral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funciones.resx">
+      <DependentUpon>Funciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Idiomas.resx">
+      <DependentUpon>Idiomas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oferta.resx">
+      <DependentUpon>Oferta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfertaEvaluacion.resx">
+      <DependentUpon>OfertaEvaluacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfertasEmpresa.resx">
+      <DependentUpon>OfertasEmpresa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Postulante.resx">
+      <DependentUpon>Postulante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PostulantesExperienciaArea.resx">
+      <DependentUpon>PostulantesExperienciaArea.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PostulantesExperienciaSoftIdioma.resx">
+      <DependentUpon>PostulantesExperienciaSoftIdioma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PostulantesOferta.resx">
+      <DependentUpon>PostulantesOferta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PostulantesSeleccionadosOferta.resx">
+      <DependentUpon>PostulantesSeleccionadosOferta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preseleccion.resx">
+      <DependentUpon>Preseleccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Referencias.resx">
+      <DependentUpon>Referencias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Region.resx">
+      <DependentUpon>Region.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Requerimientos.resx">
+      <DependentUpon>Requerimientos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seleccion.resx">
+      <DependentUpon>Seleccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Softwares.resx">
+      <DependentUpon>Softwares.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TipoEvaluacion.resx">
+      <DependentUpon>TipoEvaluacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VigenciaOfertasPublicadas.resx">
+      <DependentUpon>VigenciaOfertasPublicadas.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BD_ContratacionEmpleosDataSet.xsc">
+      <DependentUpon>BD_ContratacionEmpleosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD_ContratacionEmpleosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD_ContratacionEmpleosDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD_ContratacionEmpleosDataSet.xss">
+      <DependentUpon>BD_ContratacionEmpleosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

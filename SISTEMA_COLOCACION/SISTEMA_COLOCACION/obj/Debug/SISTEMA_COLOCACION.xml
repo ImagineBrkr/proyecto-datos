@@ -1,0 +1,736 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SISTEMA_COLOCACION
+</name>
+</assembly>
+<members>
+<member name="T:SISTEMA_COLOCACION.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SISTEMA_COLOCACION.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SISTEMA_COLOCACION.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.AreaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.BeneficiosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.ContactoEmpresaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.Director_RRHHDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.EmpresaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.EstudiosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.EstudiosPostgradoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.EvaluacionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.ExperienciaLaboralDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.FuncionesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.IdiomasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.OfertaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.Oferta_EvaluacionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.Postulacion_PreseleccionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.Postulacion_SeleccionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.PostulanteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.Postulante_EvaluacionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.ReferenciasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.RegionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.RequerimientoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SoftwareDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.TipoEvaluacionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.V_EmpresaOfertaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.V_EvaluacionesRecurrentesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.V_PostulanteACargoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.V_PostulantePromediosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.V_PostulanteSeleccionadoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_ExperienciaIdiomaSoftwareDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_IngresarPostulanteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_OfertaDetallesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_PostulanteAreaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_PostulanteDetallesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_PostulanteOfertaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.AreaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.BeneficiosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.ContactoEmpresaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.Director_RRHHRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.EmpresaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.EstudiosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.EstudiosPostgradoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.EvaluacionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.ExperienciaLaboralRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.FuncionesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.IdiomasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.OfertaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.Oferta_EvaluacionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.Postulacion_PreseleccionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.Postulacion_SeleccionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.PostulanteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.Postulante_EvaluacionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.ReferenciasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.RegionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.RequerimientoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SoftwareRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.TipoEvaluacionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.V_EmpresaOfertaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.V_EvaluacionesRecurrentesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.V_PostulanteACargoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.V_PostulantePromediosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.V_PostulanteSeleccionadoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_ExperienciaIdiomaSoftwareRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_IngresarPostulanteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_OfertaDetallesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_PostulanteAreaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_PostulanteDetallesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_PostulanteOfertaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.AreaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.BeneficiosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.ContactoEmpresaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.Director_RRHHRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.EmpresaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.EstudiosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.EstudiosPostgradoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.EvaluacionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.ExperienciaLaboralRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.FuncionesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.IdiomasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.OfertaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.Oferta_EvaluacionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.Postulacion_PreseleccionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.Postulacion_SeleccionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.PostulanteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.Postulante_EvaluacionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.ReferenciasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.RegionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.RequerimientoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SoftwareRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.TipoEvaluacionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.V_EmpresaOfertaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.V_EvaluacionesRecurrentesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.V_PostulanteACargoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.V_PostulantePromediosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.V_PostulanteSeleccionadoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_ExperienciaIdiomaSoftwareRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_IngresarPostulanteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_OfertaDetallesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_PostulanteAreaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_PostulanteDetallesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet.SP_PostulanteOfertaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.AreaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.BeneficiosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.ContactoEmpresaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.Director_RRHHTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.EmpresaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.EstudiosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.EstudiosPostgradoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.EvaluacionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.ExperienciaLaboralTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.FuncionesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.IdiomasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.OfertaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.Oferta_EvaluacionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.Postulacion_PreseleccionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.Postulacion_SeleccionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.PostulanteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.Postulante_EvaluacionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.ReferenciasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.RegionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.RequerimientoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.SoftwareTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.TipoEvaluacionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.V_EmpresaOfertaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.V_EvaluacionesRecurrentesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.V_PostulanteACargoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.V_PostulantePromediosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.V_PostulanteSeleccionadoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.SP_ExperienciaIdiomaSoftwareTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.SP_IngresarPostulanteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.SP_OfertaDetallesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.SP_PostulanteAreaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.SP_PostulanteDetallesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.SP_PostulanteOfertaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.TableAdapterManager.UpdateAll(SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SISTEMA_COLOCACION.BD_ContratacionEmpleosDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
